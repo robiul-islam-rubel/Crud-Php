@@ -32,3 +32,29 @@ a {
 td {
     padding: 20px;
 }
+
+.create-container {
+    text-align: center;
+}
+.common {
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+.submit {
+    background-color: dodgerblue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+
+.cancel {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+.buttons {
+    margin-top: 30px;
+}
