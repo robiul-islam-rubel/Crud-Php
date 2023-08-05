@@ -63,19 +63,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <h2>New Client</h2>
         <div>
             <label>Name</label>
-            <input type="text" class="common" value="<?php echo $name ?>">
+            <input type="text" class="common" name ="name" value="<?php echo $name ?>">
         </div>
         <div>
             <label>Email</label>
-            <input type="email" class="common" value="<?php echo $email ?>">
+            <input type="email" class="common" name="email" value="<?php echo $email ?>">
         </div>
         <div>
             <label>Phone</label>
-            <input type="number" class="common" value="<?php echo $phone ?>">
+            <input type="number" class="common" name="phone" value="<?php echo $phone ?>">
         </div>
         <div>
             <label>Address</label>
-            <input type="text" class="common" value="<?php echo $address ?>">
+            <input type="text" class="common" name ="address" value="<?php echo $address ?>">
         </div>
         <div class="buttons">
             <button type="submit" class="submit">Submit</button>
