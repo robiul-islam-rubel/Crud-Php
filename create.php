@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $address = "";
 
         $successMessage =  "Client added correctly";
-        header("localhost:/crud/index.php");
+        header("location:/crud/index.php");
         exit;
     } while(false);
 }
